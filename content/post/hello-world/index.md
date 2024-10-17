@@ -1,20 +1,32 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
 slug: hello-world
-date: 2022-03-06 00:00:00+0000
-image: cover.jpg
-categories:
-    - Example Category
+image: Snipaste_2024-10-18_00-07-02.png
+
 tags:
-    - Example Tag
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+    - 游戏
+    - 2024英雄联盟总决赛
+weight: 1
+title: BLG VS WBG 3:1
+description: 八进四内战, 主打一个焦灼。
+date: 2024-10-17 22:00:00+0800
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+微博打架还是厉害的
 
-For more information about this theme, check the documentation: https://stack.jimmycai.com/
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+![](daniel-sessler-yj6WSMkpUZs-unsplash.jpg)
+
+
+
+         卜算子·送鲍浩然之浙东
+
+                宋·王观
+
+        水是眼波横，山是眉峰聚。
+
+        欲问行人去那边？眉眼盈盈处。
+
+        才始送春归，又送君归去。
+
+        若到江南赶上春，千万和春住。
