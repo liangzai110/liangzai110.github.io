@@ -22,7 +22,7 @@ enableEmoji = true
 
 [dateFormat]
 published = "2006-01-02 15:04"
-lastUpdated = "Jan 02, 2006 15:04 MST"
+lastUpdated = "2006-01-02 15:04"
 
 [pagination]
   pagerSize = 100
