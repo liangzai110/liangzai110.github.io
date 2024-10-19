@@ -1,0 +1,18 @@
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 1
+title = "hello"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "what's this!"
+
+[params.author]
+  name = "liangzai"
+  image = "img/blowfish_logo.png"
+  headline = "上善若水，水利万物而不争。"
+  bio = "上善若水，水利万物而不争。"

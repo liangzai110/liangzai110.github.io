@@ -1,150 +1,158 @@
-# Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
-# Output page's full content in RSS.
-rssFullContent = true
-favicon = "/favicon3.png"
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "blowfish"
+defaultAppearance = "light" # valid options: light or dark
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+replyByEmail = false
+
+mainSections = ["docs"]
+# robots = ""
+
+disableImageOptimization = false
+disableTextInHeader = false
+# backgroundImageWidth = 1200
+
+defaultBackgroundImage = "/img/background.svg"
+defaultFeaturedImage = "/img/featured.svg"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
+[header]
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
-since = 2020
-customText = ""
+  showMenu = true
+  showCopyright = false
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
 
-[dateFormat]
-published = "2006-01-02 15:04"
-lastUpdated = "Jan 02, 2006 15:04 MST"
-
-[sidebar]
-emoji = "😉"
-subtitle = "上善若水，水利万物而不争"
-
-[sidebar.avatar]
-enabled = true
-local = true
-src = "img/favicon2.png"
+[homepage]
+  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  #homepageImage = "/img/iceland.jpg" # used in: hero, and card
+  showRecent = false
+  showRecentItems = 6
+  showMoreLink = false
+  showMoreLinkDest = "docs"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
-headingAnchor = false
-math = false
-readingTime = true
+  showDate = false
+  showViews = false
+  showLikes = false
+  showDateOnlyInArticle = false
+  showDateUpdated = false
+  showAuthor = false
+  # showAuthorBottom = false
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = true
+  editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
+  editAppendPath = true
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 6
+  showTaxonomies = true 
+  showAuthorsBadges = true 
+  showWordCount = false
+  sharingLinks = [ "linkedin", "twitter", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+  showZenMode = true
 
-[article.license]
-enabled = true
-default = "Licensed under CC BY-NC-SA 4.0"
+[list]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = false
+  showSummary = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  showCards = true
+  orderByWeight = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
 
-## Widgets
-[[widgets.homepage]]
-type = "search"
+[sitemap]
+  excludedKinds = []
 
-[[widgets.homepage]]
-type = "archives"
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  cardView = false
 
-[widgets.homepage.params]
-limit = 5
+[term]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardView = true
+  cardViewScreenWidth = false
+  
+[firebase]
+  #apiKey = "AIzaSyB5tqlqDky77Vb4Tc4apiHV4hRZI18KGiY"
+  #authDomain = "blowfish-21fff.firebaseapp.com"
+  #projectId = "blowfish-21fff"
+  #storageBucket = "blowfish-21fff.appspot.com"
+  #messagingSenderId = "60108104191"
+  #appId = "1:60108104191:web:039842ebe1370698b487ca"
+  #measurementId = "G-PEDMYR1V0K"
 
-[[widgets.homepage]]
-type = "categories"
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
 
-[widgets.homepage.params]
-limit = 10
+[umamiAnalytics]
+  websiteid = "8970f49d-d402-4a16-a81d-d7039d7984e8"
+  domain = "ulost.cn"
+  # dataDomains = "yoursite.com,yoursite2.com"
+  # enableTrackEvent = false
 
-[[widgets.homepage]]
-type = "tag-cloud"
+[selineAnalytics]
+  # token = "XXXXXX"
+  # enableTrackEvent = false
 
-[widgets.homepage.params]
-limit = 10
+[buymeacoffee]
+  identifier = "liangzai"
+  globalWidget = false
+  globalWidgetMessage = ""
+  globalWidgetColor = "#FFDD00"
+  globalWidgetPosition = "Right"
 
-[[widgets.page]]
-type = "toc"
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
 
-[opengraph.twitter]
-site = ""
-card = "summary_large_image"
-
-[defaultImage.opengraph]
-enabled = false
-local = false
-src = ""
-
-[colorScheme]
-toggle = true
-default = "auto"
-
-[imageProcessing.cover]
-enabled = true
-
-[imageProcessing.content]
-enabled = true
-
-## Comments
-[comments]
-enabled = true
-provider = "disqus"
-
-[comments.disqusjs]
-shortname = ""
-apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
-
-[comments.utterances]
-repo = ""
-issueTerm = "pathname"
-label = ""
-
-[comments.remark42]
-host = ""
-site = ""
-locale = ""
-
-[comments.vssue]
-platform = ""
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
-autoCreateIssue = false
-
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
-
-[comments.waline.locale]
-admin = "Admin"
-
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
-
-[comments.cactus]
-defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-serverName = "cactus.chat"
-siteName = ""
-
-[comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
-lightTheme = ""
-darkTheme = ""
-reactionsEnabled = 1
-emitMetadata = 0
-
-[comments.gitalk]
-owner = ""
-admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
-
-[comments.cusdis]
-host = ""
-id = ""
