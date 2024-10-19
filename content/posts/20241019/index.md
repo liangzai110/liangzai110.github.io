@@ -1,22 +1,11 @@
 ---
-slug: hello-world
-image: Snipaste_2024-10-18_00-07-02.png
-
+slug: 20241019
+title: "卜算子·送鲍浩然之浙东"
+date: 2024-10-19T17:45:01+08:00
+description: ""
 tags:
-    - 游戏
-    - 2024英雄联盟总决赛
-weight: 1
-title: BLG VS WBG 3:1
-description: 八进四内战, 主打一个焦灼。
-date: 2024-10-17 22:00:00+0800
+    - 古诗词
 ---
-
-微博打架还是厉害的
-
-
-
-![](feature_web_lng.png)
-
 
 
          卜算子·送鲍浩然之浙东

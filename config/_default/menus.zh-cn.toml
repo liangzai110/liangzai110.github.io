@@ -11,9 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "文章"
+  name = "随笔"
   pageRef = "posts"
-  weight = 10
+  weight = 1
 
 [[main]]
    name = "标签"
