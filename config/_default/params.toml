@@ -138,7 +138,7 @@ smartTOCHideUnfocusedChildren = false
 
 [umamiAnalytics]
   websiteid = "8970f49d-d402-4a16-a81d-d7039d7984e8"
-  domain = "ulost.cn"
+  # domain = "ulost.cn"
   # dataDomains = "yoursite.com,yoursite2.com"
   # enableTrackEvent = false
 
